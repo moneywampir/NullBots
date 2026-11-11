@@ -1,0 +1,15 @@
+name: NullBots
+version: '${project.version}'
+main: net.nullbots.NullBots
+api-version: '1.21'
+description: Invulnerable null-bot armies with portals, formations and targeted combat.
+
+commands:
+  "null":
+    description: Control the null bots.
+    usage: /null help
+    aliases: [nullbot, nb]
+
+permissions:
+  nullbots.use:
+    default: op
